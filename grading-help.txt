@@ -1,0 +1,18 @@
+Dominic Cerminara- dcermina
+Sachin Hegde- shegde
+Nikhil Joshi- nikhilj
+
+Required Elements
+1. Javascript Objects: We create javascript objects to remember the information about each search that is sent (line: 3). 
+
+2. Canvas: We used the canvas to display the play statistics of the popular artists as a graph (line: 215).
+
+3. HTML: Used forms, links, anchors, and images. Used both spans and divs given the situation. 
+
+4. CSS: We use pseduo-seletors such as hover (line: 95), transistions (line: 83/89), class toggling (line: 48/60). We did our best to not repeat ourselves on CSS.
+
+5. DOM Manipulation: We add things to the DOM every time something is searched. We resize the divs to accomodate the greatest height of any of the elements in them. We also remove items from the DOM when a new search is fired.
+
+6. AJAX: An AJAX request is fired when a user searches for an artist (line: 78). Another AJAX request is sent as a callback to this function (line: 108).
+
+7. jQuery: jQuery is used throughout the project to access the DOM (line: 23), change styles (line: 208), and animate (line: 196). 
